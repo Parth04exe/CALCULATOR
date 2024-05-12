@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="calculator.jpg" type="image/jpg">
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .calculator {
+            background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(75, 74, 74), rgb(0, 0, 0), rgb(0, 0, 0));
+            width: 500px;
+            margin: 50px auto;
+            border: 3px solid black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .res {
+            margin-bottom: 10px;
+            border: 1px solid black;
+            background-color: white;
+            text-align: right;
+            border-radius: 10px;
+            height: 60px;
+        font-size: 30px;
+        }
+
+        .buttons {
+            background-color: #ff8c00;
+        }
+
+        button {
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 30px;
+            display: grid;
+        }
+
+        .buttonss {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+            gap: 5px;
+        }
+            .buttons:hover {
+                background-color: rgb(255, 187, 0);
+            }
+
+            .but:hover {
+                background-color: grey;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="res">0</div>
+        <div class="buttonss">
+            <button class="but">C</button>
+            <button class="but">0</button>
+            <button class="but">1</button>
+            <button class="but">2</button>
+            <button class="but">3</button>
+            <button class="but">4</button>
+            <button class="but">5</button>
+            <button class="but">6</button>
+            <button class="but">7</button>
+            <button class="but">8</button>
+            <button class="but">9</button>
+            <button class="buttons">.</button>
+            <button class="buttons">-</button>
+            <button class="buttons">+</button>
+            <button class="buttons">=</button>
+            <button class="buttons">/</button>
+            <button class="buttons">*</button>
+            <button class="buttons">back</button>
+        </div>
+    </div>
+</body>
+
+</html>
